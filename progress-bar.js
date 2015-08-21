@@ -1,3 +1,4 @@
+// Example from https://github.com/ccorcos/meteor-progress-bar
 Posts = new Mongo.Collection('posts')
 
 if (Meteor.isClient) {
