@@ -1,3 +1,5 @@
+UserAccounts = new Mongo.Collection('userList');
+
 if (Meteor.isClient) {
     // This code only runs on the client
     Meteor.subscribe("userList");
